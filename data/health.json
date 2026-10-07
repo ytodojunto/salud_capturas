@@ -1,0 +1,52 @@
+{
+  "generado_en": "2026-10-07T02:59:36.831701+00:00",
+  "fails": 1,
+  "warns": 0,
+  "detalle": [
+    {
+      "nivel": "OK",
+      "fuente": "SHN pronóstico",
+      "mensaje": "última captura hace 2.5 h (90 snapshots)"
+    },
+    {
+      "nivel": "INFO",
+      "fuente": "SHN pronóstico",
+      "mensaje": "correccion_interior/exterior son null en TODOS los snapshots (parser o campo ausente)"
+    },
+    {
+      "nivel": "OK",
+      "fuente": "SHN alturas",
+      "mensaje": "última captura hace 2.3 h (57 snapshots)"
+    },
+    {
+      "nivel": "INFO",
+      "fuente": "SHN alturas",
+      "mensaje": "observación más reciente hace 3.2 h"
+    },
+    {
+      "nivel": "OK",
+      "fuente": "Viento SMN",
+      "mensaje": "ciclo completo más nuevo: 07/10 00z, init hace 3.0 h"
+    },
+    {
+      "nivel": "FAIL",
+      "fuente": "Viento SMN",
+      "mensaje": "5/7 ciclos completos en las últimas 48 h — faltan: 05/10 12z, 05/10 18z"
+    },
+    {
+      "nivel": "INFO",
+      "fuente": "Viento SMN",
+      "mensaje": "3 snapshots incompletos entre los últimos 12 (con la v1 del script se guardaban igual)"
+    },
+    {
+      "nivel": "OK",
+      "fuente": "CARP",
+      "mensaje": "norden_tide: último dato hace 1.1 días"
+    },
+    {
+      "nivel": "OK",
+      "fuente": "INA",
+      "mensaje": "comparacion.json generado hace 7.2 h (15 snapshots)"
+    }
+  ]
+}
