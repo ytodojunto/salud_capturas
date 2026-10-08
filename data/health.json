@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-10-07T02:59:36.831701+00:00",
-  "fails": 1,
-  "warns": 0,
+  "generado_en": "2026-10-08T01:17:13.965278+00:00",
+  "fails": 0,
+  "warns": 2,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 2.5 h (90 snapshots)"
+      "mensaje": "última captura hace 0.5 h (92 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,27 +16,37 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 2.3 h (57 snapshots)"
+      "mensaje": "última captura hace 0.3 h (59 snapshots)"
+    },
+    {
+      "nivel": "WARN",
+      "fuente": "SHN alturas",
+      "mensaje": "Punta Loyola: solo 5% de las 240 h de la ventana"
+    },
+    {
+      "nivel": "WARN",
+      "fuente": "SHN alturas",
+      "mensaje": "San Antonio Este: solo 5% de las 240 h de la ventana"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 3.2 h"
+      "mensaje": "observación más reciente hace 1.5 h"
     },
     {
       "nivel": "OK",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 07/10 00z, init hace 3.0 h"
+      "mensaje": "ciclo completo más nuevo: 07/10 18z, init hace 7.3 h"
     },
     {
-      "nivel": "FAIL",
+      "nivel": "OK",
       "fuente": "Viento SMN",
-      "mensaje": "5/7 ciclos completos en las últimas 48 h — faltan: 05/10 12z, 05/10 18z"
+      "mensaje": "7/7 ciclos completos en las últimas 48 h"
     },
     {
       "nivel": "INFO",
       "fuente": "Viento SMN",
-      "mensaje": "3 snapshots incompletos entre los últimos 12 (con la v1 del script se guardaban igual)"
+      "mensaje": "2 snapshots incompletos entre los últimos 12 (con la v1 del script se guardaban igual)"
     },
     {
       "nivel": "OK",
@@ -46,7 +56,7 @@
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 7.2 h (15 snapshots)"
+      "mensaje": "comparacion.json generado hace 5.2 h (16 snapshots)"
     }
   ]
 }
