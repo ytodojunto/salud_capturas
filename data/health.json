@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-10-10T01:13:33.127604+00:00",
+  "generado_en": "2026-10-10T15:33:48.228152+00:00",
   "fails": 0,
   "warns": 2,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.7 h (96 snapshots)"
+      "mensaje": "última captura hace 0.7 h (97 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,27 +16,27 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.4 h (63 snapshots)"
+      "mensaje": "última captura hace 0.2 h (64 snapshots)"
     },
     {
       "nivel": "WARN",
       "fuente": "SHN alturas",
-      "mensaje": "Punta Loyola: solo 25% de las 240 h de la ventana"
+      "mensaje": "Punta Loyola: solo 31% de las 240 h de la ventana"
     },
     {
       "nivel": "WARN",
       "fuente": "SHN alturas",
-      "mensaje": "San Antonio Este: solo 25% de las 240 h de la ventana"
+      "mensaje": "San Antonio Este: solo 31% de las 240 h de la ventana"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 0.5 h"
+      "mensaje": "observación más reciente hace 0.8 h"
     },
     {
       "nivel": "OK",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 09/10 18z, init hace 7.2 h"
+      "mensaje": "ciclo completo más nuevo: 10/10 06z, init hace 9.6 h"
     },
     {
       "nivel": "OK",
@@ -46,12 +46,12 @@
     {
       "nivel": "OK",
       "fuente": "CARP",
-      "mensaje": "norden_tide: último dato hace 1.1 días"
+      "mensaje": "norden_tide: último dato hace 0.7 días"
     },
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 5.6 h (18 snapshots)"
+      "mensaje": "comparacion.json generado hace 19.9 h (18 snapshots)"
     }
   ]
 }
