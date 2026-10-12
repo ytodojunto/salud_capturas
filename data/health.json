@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-10-12T00:43:15.274661+00:00",
+  "generado_en": "2026-10-12T19:18:02.315572+00:00",
   "fails": 0,
-  "warns": 2,
+  "warns": 4,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.4 h (100 snapshots)"
+      "mensaje": "última captura hace 1.0 h (101 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,42 +16,42 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.2 h (67 snapshots)"
+      "mensaje": "última captura hace 0.3 h (68 snapshots)"
     },
     {
       "nivel": "WARN",
       "fuente": "SHN alturas",
-      "mensaje": "Punta Loyola: solo 45% de las 240 h de la ventana"
+      "mensaje": "Punta Loyola: solo 52% de las 240 h de la ventana"
     },
     {
       "nivel": "WARN",
       "fuente": "SHN alturas",
-      "mensaje": "San Antonio Este: solo 45% de las 240 h de la ventana"
+      "mensaje": "San Antonio Este: solo 52% de las 240 h de la ventana"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 1.0 h"
+      "mensaje": "observación más reciente hace 1.6 h"
     },
     {
-      "nivel": "OK",
+      "nivel": "WARN",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 11/10 18z, init hace 6.7 h"
+      "mensaje": "ciclo completo más nuevo: 12/10 06z, init hace 13.3 h"
     },
     {
-      "nivel": "OK",
+      "nivel": "WARN",
       "fuente": "Viento SMN",
-      "mensaje": "6/6 ciclos completos en las últimas 48 h"
+      "mensaje": "6/7 ciclos completos en las últimas 48 h — faltan: 12/10 12z"
     },
     {
       "nivel": "OK",
       "fuente": "CARP",
-      "mensaje": "norden_tide: último dato hace 1.0 días"
+      "mensaje": "norden_tide: último dato hace 0.8 días"
     },
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 5.6 h (20 snapshots)"
+      "mensaje": "comparacion.json generado hace 24.2 h (20 snapshots)"
     }
   ]
 }
