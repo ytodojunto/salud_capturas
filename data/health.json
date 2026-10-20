@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-10-19T16:37:18.763355+00:00",
+  "generado_en": "2026-10-20T00:37:44.682910+00:00",
   "fails": 0,
-  "warns": 0,
+  "warns": 1,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.6 h (115 snapshots)"
+      "mensaje": "última captura hace 0.5 h (116 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,7 +16,7 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.2 h (82 snapshots)"
+      "mensaje": "última captura hace 0.3 h (83 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -26,22 +26,22 @@
     {
       "nivel": "OK",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 19/10 06z, init hace 10.6 h"
+      "mensaje": "ciclo completo más nuevo: 19/10 18z, init hace 6.6 h"
     },
     {
-      "nivel": "OK",
+      "nivel": "WARN",
       "fuente": "Viento SMN",
-      "mensaje": "7/7 ciclos completos en las últimas 48 h"
+      "mensaje": "5/6 ciclos completos en las últimas 48 h — faltan: 19/10 12z"
     },
     {
       "nivel": "OK",
       "fuente": "CARP",
-      "mensaje": "norden_tide: último dato hace 0.7 días"
+      "mensaje": "norden_tide: último dato hace 1.0 días"
     },
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 23.1 h (27 snapshots)"
+      "mensaje": "comparacion.json generado hace 4.5 h (28 snapshots)"
     }
   ]
 }
