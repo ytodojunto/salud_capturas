@@ -1,6 +1,6 @@
 """
 Chequeo de salud de las capturas (SHN pronóstico, SHN alturas, viento SMN,
-CARP, INA). Lee los datos de los repos públicos vía raw.githubusercontent.com,
+CARP, INA, emisión de la capa combinada). Lee los datos de los repos públicos vía raw.githubusercontent.com,
 imprime un reporte, escribe data/health.json y sale con código 1 si hay algún
 FAIL — en un workflow programado eso hace que GitHub mande el mail de
 "workflow failed". WARN e INFO no hacen fallar el workflow.
@@ -28,6 +28,7 @@ SHN_ALTURAS_EDAD = (16, 30)      # 2 corridas por día
 VIENTO_CICLO_EDAD = (13, 19)     # ciclo completo más nuevo: 6 h entre ciclos + publicación
 CARP_EDAD = (72, 120)            # fuente con ~1 día de atraso, sync diario
 INA_EDAD = (36, 72)
+EMISION_EDAD = (3, 8)            # pronóstico de la capa combinada (San Fernando): se emite cada hora
 VIENTO_COMPLETOS_OK, VIENTO_COMPLETOS_WARN = 1.0, 0.75   # fracción de ciclos de las últimas 48 h
 ARCHIVOS_POR_CICLO = 73
 ALTURAS_COMPLETITUD_WARN = 0.70  # fracción de las 240 h de la ventana por estación
@@ -204,8 +205,37 @@ def chequear_ina():
         anotar("INFO", f, "estaciones que ahora SÍ tienen pronóstico: " + ", ".join(sorted(recuperadas)))
 
 
+# ---------------- Emisión de la capa combinada ----------------
+def chequear_emision():
+    f = "Emisión capa"
+    base = f"{RAW}/modelo_marea_estuario/main/data"
+    try:
+        a = json.loads(bajar(f"{base}/pronostico_actual.json"))
+    except (requests.RequestException, json.JSONDecodeError) as e:
+        return anotar("FAIL", f, f"pronostico_actual.json no legible ({e.__class__.__name__})")
+    gen = datetime.fromisoformat(a["generado_en_utc"].replace("Z", "+00:00"))
+    gen = gen.replace(tzinfo=UTC) if gen.tzinfo is None else gen.astimezone(UTC)  # el script lo guarda en UTC sin marca
+    edad = horas_desde(gen)
+    anotar(por_edad(edad, EMISION_EDAD), f,
+           f"pronostico_actual.json generado hace {edad:.1f} h (emisión {a['emision_art']} ART)")
+    if not a.get("obs_vivo", True):
+        anotar("INFO", f, "la última emisión usó las capturas del repo (falló la descarga del observado en vivo)")
+    try:
+        n24 = 0
+        for linea in bajar(f"{base}/pronosticos_capa.jsonl").splitlines():
+            if linea.strip():
+                g = datetime.fromisoformat(json.loads(linea)["generado_en_utc"])
+                g = g.replace(tzinfo=UTC) if g.tzinfo is None else g.astimezone(UTC)
+                if horas_desde(g) <= 24:
+                    n24 += 1
+        anotar("INFO", f, f"{n24} emisiones en las últimas 24 h (esperadas ~24)")
+    except (requests.RequestException, json.JSONDecodeError, KeyError, ValueError) as e:
+        anotar("WARN", f, f"no pude contar las emisiones de 24 h ({e.__class__.__name__})")
+
+
 def main():
-    for fn in (chequear_shn_prono, chequear_shn_alturas, chequear_viento, chequear_carp, chequear_ina):
+    for fn in (chequear_shn_prono, chequear_shn_alturas, chequear_viento, chequear_carp, chequear_ina,
+               chequear_emision):
         try:
             fn()
         except Exception as e:  # un chequeo roto no tapa a los demás
