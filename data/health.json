@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-11-03T17:18:30.954227+00:00",
-  "fails": 0,
+  "generado_en": "2026-11-04T01:38:23.545523+00:00",
+  "fails": 3,
   "warns": 1,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.6 h (145 snapshots)"
+      "mensaje": "última captura hace 0.5 h (146 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,17 +16,17 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.3 h (111 snapshots)"
+      "mensaje": "última captura hace 0.3 h (112 snapshots)"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 1.6 h"
+      "mensaje": "observación más reciente hace 0.9 h"
     },
     {
       "nivel": "OK",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 03/11 06z, init hace 11.3 h"
+      "mensaje": "ciclo completo más nuevo: 03/11 18z, init hace 7.6 h"
     },
     {
       "nivel": "OK",
@@ -34,24 +34,34 @@
       "mensaje": "7/7 ciclos completos en las últimas 48 h"
     },
     {
-      "nivel": "OK",
+      "nivel": "FAIL",
       "fuente": "CARP",
-      "mensaje": "norden_tide: último dato hace 0.7 días"
+      "mensaje": "norden_tide: no se pudo leer (HTTPError)"
+    },
+    {
+      "nivel": "FAIL",
+      "fuente": "CARP",
+      "mensaje": "norden_wind: no se pudo leer (HTTPError)"
+    },
+    {
+      "nivel": "FAIL",
+      "fuente": "CARP",
+      "mensaje": "colonia_tide: no se pudo leer (HTTPError)"
     },
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 18.5 h (57 snapshots)"
+      "mensaje": "comparacion.json generado hace 5.0 h (60 snapshots)"
     },
     {
       "nivel": "WARN",
       "fuente": "Emisión capa",
-      "mensaje": "pronostico_actual.json generado hace 7.3 h (emisión 2026-11-03T07:00:00 ART)"
+      "mensaje": "pronostico_actual.json generado hace 3.0 h (emisión 2026-11-03T19:00:00 ART)"
     },
     {
       "nivel": "INFO",
       "fuente": "Emisión capa",
-      "mensaje": "3 emisiones en las últimas 24 h (esperadas ~24)"
+      "mensaje": "4 emisiones en las últimas 24 h (esperadas ~24)"
     }
   ]
 }
