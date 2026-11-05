@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-11-05T01:45:53.641392+00:00",
+  "generado_en": "2026-11-05T17:37:14.736972+00:00",
   "fails": 6,
-  "warns": 0,
+  "warns": 1,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.4 h (148 snapshots)"
+      "mensaje": "última captura hace 0.7 h (149 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,17 +16,17 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.3 h (114 snapshots)"
+      "mensaje": "última captura hace 0.2 h (115 snapshots)"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 1.0 h"
+      "mensaje": "observación más reciente hace 0.9 h"
     },
     {
       "nivel": "OK",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 04/11 18z, init hace 7.8 h"
+      "mensaje": "ciclo completo más nuevo: 05/11 06z, init hace 11.6 h"
     },
     {
       "nivel": "OK",
@@ -66,17 +66,17 @@
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 4.9 h (64 snapshots)"
+      "mensaje": "comparacion.json generado hace 20.7 h (64 snapshots)"
     },
     {
-      "nivel": "OK",
+      "nivel": "WARN",
       "fuente": "Emisión capa",
-      "mensaje": "pronostico_actual.json generado hace 2.1 h (emisión 2026-11-04T20:00:00 ART)"
+      "mensaje": "pronostico_actual.json generado hace 6.0 h (emisión 2026-11-05T08:00:00 ART)"
     },
     {
       "nivel": "INFO",
       "fuente": "Emisión capa",
-      "mensaje": "3 emisiones en las últimas 24 h (esperadas ~24)"
+      "mensaje": "4 emisiones en las últimas 24 h (esperadas ~24)"
     }
   ]
 }
