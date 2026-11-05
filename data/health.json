@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-11-04T17:29:30.272714+00:00",
-  "fails": 7,
+  "generado_en": "2026-11-05T01:45:53.641392+00:00",
+  "fails": 6,
   "warns": 0,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.8 h (147 snapshots)"
+      "mensaje": "última captura hace 0.4 h (148 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,17 +16,22 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.3 h (113 snapshots)"
+      "mensaje": "última captura hace 0.3 h (114 snapshots)"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 0.7 h"
+      "mensaje": "observación más reciente hace 1.0 h"
     },
     {
-      "nivel": "FAIL",
-      "fuente": "chequear_viento",
-      "mensaje": "el chequeo mismo falló: HTTPError: 503 Server Error: between bytes timeout for url: https://raw.githubusercontent.com/ytodojunto/SMN_captura_viento/main/data/historico_viento.jsonl"
+      "nivel": "OK",
+      "fuente": "Viento SMN",
+      "mensaje": "ciclo completo más nuevo: 04/11 18z, init hace 7.8 h"
+    },
+    {
+      "nivel": "OK",
+      "fuente": "Viento SMN",
+      "mensaje": "7/7 ciclos completos en las últimas 48 h"
     },
     {
       "nivel": "FAIL",
@@ -46,6 +51,11 @@
     {
       "nivel": "FAIL",
       "fuente": "CARP",
+      "mensaje": "colonia_wind: no se pudo leer (HTTPError)"
+    },
+    {
+      "nivel": "FAIL",
+      "fuente": "CARP",
       "mensaje": "conchillas_wind: no se pudo leer (HTTPError)"
     },
     {
@@ -56,12 +66,12 @@
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 20.9 h (60 snapshots)"
+      "mensaje": "comparacion.json generado hace 4.9 h (64 snapshots)"
     },
     {
-      "nivel": "FAIL",
+      "nivel": "OK",
       "fuente": "Emisión capa",
-      "mensaje": "pronostico_actual.json generado hace 14.8 h (emisión 2026-11-03T23:00:00 ART)"
+      "mensaje": "pronostico_actual.json generado hace 2.1 h (emisión 2026-11-04T20:00:00 ART)"
     },
     {
       "nivel": "INFO",
