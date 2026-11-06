@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-11-06T01:47:01.088179+00:00",
-  "fails": 6,
+  "generado_en": "2026-11-06T16:55:24.991168+00:00",
+  "fails": 7,
   "warns": 0,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.4 h (150 snapshots)"
+      "mensaje": "última captura hace 0.5 h (151 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,17 +16,17 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.2 h (116 snapshots)"
+      "mensaje": "última captura hace 0.2 h (117 snapshots)"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 1.0 h"
+      "mensaje": "observación más reciente hace 1.2 h"
     },
     {
       "nivel": "OK",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 05/11 18z, init hace 7.8 h"
+      "mensaje": "ciclo completo más nuevo: 06/11 06z, init hace 10.9 h"
     },
     {
       "nivel": "OK",
@@ -64,14 +64,19 @@
       "mensaje": "carmelo_tide: no se pudo leer (HTTPError)"
     },
     {
+      "nivel": "FAIL",
+      "fuente": "CARP",
+      "mensaje": "carmelo_wind: no se pudo leer (HTTPError)"
+    },
+    {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 4.6 h (68 snapshots)"
+      "mensaje": "comparacion.json generado hace 19.7 h (68 snapshots)"
     },
     {
       "nivel": "OK",
       "fuente": "Emisión capa",
-      "mensaje": "pronostico_actual.json generado hace 1.6 h (emisión 2026-11-05T21:00:00 ART)"
+      "mensaje": "pronostico_actual.json generado hace 2.0 h (emisión 2026-11-06T11:00:00 ART)"
     },
     {
       "nivel": "INFO",
