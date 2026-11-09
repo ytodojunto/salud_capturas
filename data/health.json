@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-11-09T01:11:43.051523+00:00",
-  "fails": 7,
-  "warns": 0,
+  "generado_en": "2026-11-09T20:02:14.283166+00:00",
+  "fails": 9,
+  "warns": 2,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.6 h (156 snapshots)"
+      "mensaje": "última captura hace 0.7 h (157 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,22 +16,22 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.3 h (122 snapshots)"
+      "mensaje": "última captura hace 0.2 h (123 snapshots)"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 0.4 h"
+      "mensaje": "observación más reciente hace 0.3 h"
     },
     {
-      "nivel": "OK",
+      "nivel": "WARN",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 08/11 18z, init hace 7.2 h"
+      "mensaje": "ciclo completo más nuevo: 09/11 06z, init hace 14.0 h"
     },
     {
-      "nivel": "OK",
+      "nivel": "WARN",
       "fuente": "Viento SMN",
-      "mensaje": "7/7 ciclos completos en las últimas 48 h"
+      "mensaje": "6/7 ciclos completos en las últimas 48 h — faltan: 09/11 12z"
     },
     {
       "nivel": "FAIL",
@@ -56,6 +56,11 @@
     {
       "nivel": "FAIL",
       "fuente": "CARP",
+      "mensaje": "conchillas_tide: no se pudo leer (HTTPError)"
+    },
+    {
+      "nivel": "FAIL",
+      "fuente": "CARP",
       "mensaje": "conchillas_wind: no se pudo leer (HTTPError)"
     },
     {
@@ -71,17 +76,17 @@
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 6.2 h (81 snapshots)"
+      "mensaje": "comparacion.json generado hace 25.0 h (81 snapshots)"
     },
     {
-      "nivel": "OK",
+      "nivel": "FAIL",
       "fuente": "Emisión capa",
-      "mensaje": "pronostico_actual.json generado hace 2.0 h (emisión 2026-11-08T20:00:00 ART)"
+      "mensaje": "pronostico_actual.json generado hace 9.6 h (emisión 2026-11-09T07:00:00 ART)"
     },
     {
       "nivel": "INFO",
       "fuente": "Emisión capa",
-      "mensaje": "5 emisiones en las últimas 24 h (esperadas ~24)"
+      "mensaje": "3 emisiones en las últimas 24 h (esperadas ~24)"
     }
   ]
 }
