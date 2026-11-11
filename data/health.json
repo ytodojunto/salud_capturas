@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-11-10T17:16:21.030400+00:00",
-  "fails": 8,
-  "warns": 2,
+  "generado_en": "2026-11-11T01:28:04.307772+00:00",
+  "fails": 9,
+  "warns": 1,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.6 h (159 snapshots)"
+      "mensaje": "última captura hace 0.4 h (160 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,22 +16,22 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.2 h (125 snapshots)"
+      "mensaje": "última captura hace 0.2 h (126 snapshots)"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 0.5 h"
-    },
-    {
-      "nivel": "OK",
-      "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 10/11 06z, init hace 11.3 h"
+      "mensaje": "observación más reciente hace 0.7 h"
     },
     {
       "nivel": "WARN",
       "fuente": "Viento SMN",
-      "mensaje": "6/7 ciclos completos en las últimas 48 h — faltan: 09/11 18z"
+      "mensaje": "ciclo completo más nuevo: 10/11 12z, init hace 13.5 h"
+    },
+    {
+      "nivel": "FAIL",
+      "fuente": "Viento SMN",
+      "mensaje": "5/7 ciclos completos en las últimas 48 h — faltan: 09/11 18z, 10/11 18z"
     },
     {
       "nivel": "FAIL",
@@ -76,17 +76,17 @@
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 17.7 h (85 snapshots)"
+      "mensaje": "comparacion.json generado hace 4.5 h (88 snapshots)"
     },
     {
-      "nivel": "WARN",
+      "nivel": "OK",
       "fuente": "Emisión capa",
-      "mensaje": "pronostico_actual.json generado hace 5.6 h (emisión 2026-11-10T08:00:00 ART)"
+      "mensaje": "pronostico_actual.json generado hace 1.5 h (emisión 2026-11-10T21:00:00 ART)"
     },
     {
       "nivel": "INFO",
       "fuente": "Emisión capa",
-      "mensaje": "3 emisiones en las últimas 24 h (esperadas ~24)"
+      "mensaje": "4 emisiones en las últimas 24 h (esperadas ~24)"
     }
   ]
 }
