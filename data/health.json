@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-11-25T19:34:07.549046+00:00",
+  "generado_en": "2026-11-26T03:45:27.166864+00:00",
   "fails": 8,
   "warns": 0,
   "detalle": [
     {
       "nivel": "OK",
       "fuente": "SHN pronóstico",
-      "mensaje": "última captura hace 0.7 h (188 snapshots)"
+      "mensaje": "última captura hace 8.9 h (188 snapshots)"
     },
     {
       "nivel": "INFO",
@@ -16,17 +16,17 @@
     {
       "nivel": "OK",
       "fuente": "SHN alturas",
-      "mensaje": "última captura hace 0.3 h (154 snapshots)"
+      "mensaje": "última captura hace 0.2 h (155 snapshots)"
     },
     {
       "nivel": "INFO",
       "fuente": "SHN alturas",
-      "mensaje": "observación más reciente hace 0.8 h"
+      "mensaje": "observación más reciente hace 1.0 h"
     },
     {
       "nivel": "OK",
       "fuente": "Viento SMN",
-      "mensaje": "ciclo completo más nuevo: 25/11 12z, init hace 7.6 h"
+      "mensaje": "ciclo completo más nuevo: 25/11 18z, init hace 9.8 h"
     },
     {
       "nivel": "OK",
@@ -76,12 +76,12 @@
     {
       "nivel": "OK",
       "fuente": "INA",
-      "mensaje": "comparacion.json generado hace 20.0 h (136 snapshots)"
+      "mensaje": "comparacion.json generado hace 4.5 h (139 snapshots)"
     },
     {
       "nivel": "OK",
       "fuente": "Emisión capa",
-      "mensaje": "pronostico_actual.json generado hace 0.4 h (emisión 2026-11-25T16:00:00 ART)"
+      "mensaje": "pronostico_actual.json generado hace 1.4 h (emisión 2026-11-25T23:00:00 ART)"
     },
     {
       "nivel": "INFO",
